@@ -87,7 +87,7 @@ const ProfilePage = () => {
           </p>
         </div>
       ) : (
-        <NavLink to="/"></NavLink>
+        <div></div>
       )}
     </>
   );
