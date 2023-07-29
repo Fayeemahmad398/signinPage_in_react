@@ -1,0 +1,138 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #e0e5f1;
+}
+* {
+  box-sizing: border-box;
+}
+/* -------------------------------------------------------- */
+/* signin page designed here */
+#havingacount a,
+p {
+  margin: 0px;
+}
+#havingacount {
+  display: flex !important;
+  flex-direction: row;
+  /* align-items: center; */
+  justify-content: center;
+}
+.signinpage {
+  height: 400px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  background: #f7f8fa;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 3px 4px 2px grey;
+}
+img {
+  width: 100%;
+  height: 20px;
+}
+.box {
+  margin: 30px 0px;
+  display: flex;
+  flex-direction: column;
+}
+button,
+input {
+  width: 100%;
+  height: 30px;
+}
+input {
+  outline: 1px solid rgb(96, 93, 93);
+  box-shadow: 3px 3px 3px grey;
+  border: none;
+}
+button {
+  background: rgb(102, 172, 233);
+  margin: 5px 0px;
+  color: white;
+}
+
+.form-box {
+  width: 90%;
+}
+h1 {
+  font-size: 23px;
+}
+label {
+  font-size: 17px;
+}
+a {
+  color: blue;
+  text-decoration: underline;
+  text-align: center;
+  display: block;
+  margin: 20px 0px;
+  height: 30px;
+}
+p {
+  height: 10px;
+  margin: 10px;
+  color: rgb(12, 11, 11);
+}
+/* ---------------------------------------------------------------
+profile designed here
+ */
+
+#profileheading {
+  text-align: center;
+  color: rgb(99, 139, 249);
+}
+.img {
+  width: 190px;
+  height: 150px;
+  margin: auto;
+}
+#img {
+  display: flex;
+}
+p {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  margin: 5px;
+}
+span {
+  margin-left: 20px;
+}
+#profile_box {
+  background: #ffffff;
+  color: white;
+  border: 3px solid rgb(128, 131, 137);
+  display: flex;
+  flex-direction: column;
+  opacity: 0.9;
+  width: 300px;
+  gap: 10px;
+  padding: 10px;
+  font-size: 20px;
+  color: rgb(225, 220, 220);
+  border-radius: 10px;
+}
+#fetchError {
+  color: red;
+  height: fit-content;
+}
+#mandatory {
+  color: red;
+}
+@media (max-width: 400px) {
+  .signinpage {
+    width: 300px;
+    height: fit-content;
+  }
+  div {
+    margin: 10px 0px;
+  }
+}
