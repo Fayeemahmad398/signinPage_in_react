@@ -15,6 +15,7 @@ const ProfilePage = () => {
   const state = useSelector((state) => {
     return state;
   });
+  console.log(state, " State of profile page");
   const profileDetails = state.data ? state.data : {};
 
   useEffect(() => {
@@ -86,7 +87,7 @@ const ProfilePage = () => {
           </p>
         </div>
       ) : (
-        <div to="/"></div>
+        <NavLink to="/"></NavLink>
       )}
     </>
   );
